@@ -65,7 +65,7 @@
         {
             "name": "开源",
             "name_link": "javascript:void(0)",
-            "description": "自己幸苦写出的代码，完全无私奉献给他人是不正确的，至少就我而言不愿意帮助伸手党，即使对我来讲是轻而易举的事，能艰苦奋斗尽量自我奋斗，不做伸手党！"
+            "description": "自己幸苦写出的代码，完全无私奉献给他人是不正确的，就我而言不愿意帮助伸手党，即使对我来讲是轻而易举的事，能艰苦奋斗尽量自我奋斗，不做伸手党！"
         },
         {
             "name": "结果",
@@ -118,16 +118,16 @@
     ],
     "ProjectExperience": [
         {
-            "name": "国内实力第一医院app抢号系统",
+            "name": "国内某实力超前医院app抢号系统",
             "name_link": "javascript:void(0)",
             "title": "汇编, OC, C/C++, GoLang, NodeJS, 作者",
             "icon": "",
-            "description": "抢号项目，已解决难点：防hook工具注入，汇编代码混淆，设备安全协议串行化检测，https双向认证，非对称加密算法难以分析，socks代理dns污染；未解决难点：阿里云滑块验证，需要死磕提升成功率",
-            "time": "2020.06 - 2020.07",
+            "description": "秒杀抢号项目，已解决难点：防hook工具注入，汇编代码混淆，设备安全协议串行化检测，https双向认证，非对称加密算法难以分析，socks代理dns污染，抢单时间点tcp窗口过小，阿里云滑块验证；未解决难点：抢单成功率不稳定，需进一步分析影响成功率的因素",
+            "time": "2020.06 - 至今",
             "location": ""
         },
         {
-            "name": "某条app话费支付",
+            "name": "某条新闻资讯app话费支付",
             "name_link": "javascript:void(0)",
             "title": "汇编, OC, C/C++, GoLang, 作者",
             "icon": "",
@@ -199,7 +199,7 @@
             "location": ""
         },
         {
-            "name": "某信PC版HOOK",
+            "name": "某信ForWindows 消息HOOK",
             "name_link": "javascript:void(0)",
             "title": "C, PHP, 项目负责人",
             "icon": "",
