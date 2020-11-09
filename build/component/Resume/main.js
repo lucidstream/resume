@@ -19,9 +19,6 @@ var Resume = React.createClass({
                 type: "个人简介",
                 experiences: this.props.resume.Awards
             }), React.createElement(ExperienceList, {
-                type: "价值观",
-                experiences: this.props.resume.socialExperiences
-            }), React.createElement(ExperienceList, {
                 type: "工作经历",
                 experiences: this.props.resume.InternExperiences
             }), React.createElement(ExperienceList, {
