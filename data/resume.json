@@ -48,6 +48,33 @@
         "name":"注意：此人有代码洁癖,有强迫症,不喜欢使用过度封装的库或框架,缺少书面总结的习惯"
         }
     ],
+    "socialExperiences": [
+        {
+            "name": "平衡",
+            "name_link": "javascript:void(0)",
+            "description": "程序是一门有序和平衡的艺术，不应牺牲费力创造出的平衡追求短期商业利益最大化，一个好的领导者总是能很好的把控商业行为与程序开发中的平衡点"
+        },
+        {
+            "name": "协作",
+            "name_link": "javascript:void(0)",
+            "description": "团队协作过程中不应过多主观论调，一个固执的领导对团队来讲是灾难，一个无法从客观事实出发的团队大概率失败"
+        },
+        {
+            "name": "开源",
+            "name_link": "javascript:void(0)",
+            "description": "自己幸苦写出的代码，完全无私奉献给他人是不正确的，就我而言不愿意帮助伸手党，即使对我来讲是轻而易举的事，能艰苦奋斗尽量自我奋斗，不做伸手党！"
+        },
+        {
+            "name": "结果",
+            "name_link": "javascript:void(0)",
+            "description": "过程导向重要性高于结果导向，一件事要求做到什么程度和一件事该怎么做才能达到预期程度，是两种不同的责任观念"
+        },
+        {
+            "name": "加班",
+            "name_link": "javascript:void(0)",
+            "description": "适当的加班完全没什么，玩命加班却没有相应回报本质就是透支自己生命"
+        }
+    ],
     "InternExperiences": [
         {
             "name": "重庆麦芽传媒公司",
