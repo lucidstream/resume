@@ -24,7 +24,7 @@
             "name": ""
         },
         {
-        "name": "技术栈：Golang,C,C++,PHP,JavaScript,Lua,Objective-C,X86汇编,ARM64汇编"
+        "name": "技术栈：Golang,C,C++,Objective-C,PHP,JavaScript,Lua,X86汇编,ARM64汇编"
         },
         {
         "name": "应用开发平台：CentOS,MacOS,iOS"
@@ -42,7 +42,7 @@
         "name":"技能成分组成：50%服务端应用 with 44%逆向与安全 with %6其他"
         },
         {
-        "name":"爱好：偏底层和原理的技术,宅家,大型PC网络游戏,宠物猫,国产动漫,天文学"
+        "name":"爱好：偏底层和原理的技术,宅家,大型PC网游,宠物猫,国产动漫,天文学"
         },
         {
         "name":"注意：此人有代码洁癖,有强迫症,不喜欢使用过度封装的库或框架,缺少书面总结的习惯"
@@ -91,27 +91,45 @@
     ],
     "ProjectExperience": [
         {
+            "name": "iOS某音app协议分析逆向工程",
+            "name_link": "javascript:void(0)",
+            "title": "arm64, OC, C/C++, 作者",
+            "icon": "",
+            "description": "已基本研究清楚XG,设备激活等核心算法，已实现注册设备，登陆，验证码脱机运行，评论等功能，因为账号成本原因暂停继续开发",
+            "time": "2021.01 - 2021.02",
+            "location": ""
+        },
+        {
+            "name": "iOS某信app提取附近的人账号并模拟来源添加好友",
+            "name_link": "javascript:void(0)",
+            "title": "arm64, OC, C/C++, 作者",
+            "icon": "",
+            "description": "利用相关bug研究出两个可以达到目的版本，某信app服务端强制升级v1v2为v3v4后严格控制了添加频次，仍可在较稳定的app版本上实现单日添加3次好友，封禁账号问题仍是千年难题",
+            "time": "2020.11 - 2021.01",
+            "location": ""
+        },
+        {
             "name": "国内某实力超前医院app抢号系统",
             "name_link": "javascript:void(0)",
-            "title": "汇编, OC, C/C++, GoLang, NodeJS, 作者",
+            "title": "arm64, OC, C/C++, GoLang, NodeJS, 作者",
             "icon": "",
-            "description": "秒杀抢号项目，已解决难点：防hook工具注入，汇编代码混淆，设备安全协议串行化检测，https双向认证，非对称加密算法难以分析，socks代理dns污染，抢单时间点tcp窗口过小，阿里云滑块验证；未解决难点：抢单成功率不稳定，需进一步分析影响成功率的因素",
+            "description": "秒杀抢号项目，包含协议版本和iPhone版本。项目部分难点：防hook工具注入，汇编代码OLLVM混淆，设备安全协议串行化检测，https双向认证，非对称加密算法变形，socks代理dns污染，抢单时间点tcp窗口过小，cgo与oc混编，拦截网络消息兼容原app网络协议，iPhone端口远程映射",
             "time": "2020.06 - 至今",
             "location": ""
         },
         {
-            "name": "某条新闻资讯app话费支付",
+            "name": "iOS某条新闻资讯app话费支付",
             "name_link": "javascript:void(0)",
-            "title": "汇编, OC, C/C++, GoLang, 作者",
+            "title": "OC, C/C++, GoLang, 作者",
             "icon": "",
-            "description": "某条app话费充值，收到充值请求返回某付宝支付链接，分为app协议与h5协议，定时检查用户付款，发起付款成功或超时回调。难点：某付宝聚合安全组件，混淆严重，加密算法难以分析。",
+            "description": "某条app话费充值，收到充值请求返回某付宝支付链接，分为app协议与h5协议，定时检查用户付款，发起付款成功或超时回调。难点：某付宝聚合安全组件混淆严重，加密算法难以分析。",
             "time": "2020.05 - 2020.06",
             "location": ""
         },
         {
-            "name": "某拍短视频app协议分析逆向工程",
+            "name": "iOS某拍短视频app协议分析逆向工程",
             "name_link": "javascript:void(0)",
-            "title": "汇编, OC, C/C++, Python, GoLang, 作者",
+            "title": "OC, C/C++, GoLang, 作者",
             "icon": "",
             "description": "逆向iOS某拍app协议，使用Golang还原app通信协议，逆向iOS微博SDK，实现使用微博账号批量登陆某拍app，实现刷赞，刷评论，刷收藏，刷播放，刷转发等等功能。还原度是所有逆向工程的难点之一，分析的不正确极可能导致封号，或产生不可预测的结果",
             "time": "2020.02 - 2020.04",
@@ -122,7 +140,7 @@
             "name_link": "javascript:void(0)",
             "title": "GoLang, Lua, 作者",
             "icon": "",
-            "description": "最初想法是为了解决使用MySQL引起的连接数暴涨，进而导致开N多进程模拟app操作需要较高的服务器成本，使用Redis单机可支持较高连接数。后续根据需要发展为了一个轻量级业务框架，框架规范了NoSQL开发方式",
+            "description": "根据个人习惯开发的一套用于服务端的工具集，详细看这里：https://github.com/lucidstream/coify",
             "time": "2020.02 - 至今",
             "location": ""
         },
@@ -133,15 +151,6 @@
             "icon": "",
             "description": "在CVE公布的漏洞基础上将一个中危漏洞分析出高危的使用方法，可执行任意php语句，成功拿到源码和数据库...",
             "time": "2019.11 - 2019.11",
-            "location": ""
-        },
-        {
-            "name": "某FPS游戏漏洞利用",
-            "name_link": "javascript:void(0)",
-            "title": "C++, 作者",
-            "icon": "",
-            "description": "国内某大型FPS游戏，飞天，卡墙，瞬移，工具开发...",
-            "time": "2019.06 - 2019.06",
             "location": ""
         },
         {
@@ -172,9 +181,9 @@
             "location": ""
         },
         {
-            "name": "某信ForWindows 消息HOOK",
+            "name": "某信ForWindows 服务端",
             "name_link": "javascript:void(0)",
-            "title": "C, PHP, 项目负责人",
+            "title": "C, PHP服务端",
             "icon": "",
             "description": "业务需要得到某信用户在某信这个体系下的唯一ID，通过对某信pc版的逆向破解注入hook动态库，完成转发某信pc版原始消息，查询某信群成员资料，发送普通类型消息，发送移除成员（踢人）事件类型等功能",
             "time": "2017.05 - 2017.06",
